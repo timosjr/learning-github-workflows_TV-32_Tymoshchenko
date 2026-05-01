@@ -50,4 +50,4 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t my-python-app:latest
+        docker build -t my-python-app:latest .
